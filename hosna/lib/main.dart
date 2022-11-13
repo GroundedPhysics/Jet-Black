@@ -37,7 +37,7 @@ class _MyHomePageState extends State<MyHomePage> {
         child: Column(
           children: [
             const SizedBox(
-              height: 100,
+              height: 50,
             ),
             Text(
               "hosna",
