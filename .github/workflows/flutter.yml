@@ -30,9 +30,7 @@ jobs:
           flutter-version: '3.0.5'
           channel: 'stable'
           baseHref: /Jet-Black/hosna
-      - run: flutter --version
-
-      - run: cd hosna 
+      - run: flutter --versio
 
       - run: flutter pub get
       - run: flutter biuld apk 
