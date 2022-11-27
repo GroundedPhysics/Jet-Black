@@ -31,7 +31,6 @@ jobs:
           channel: 'stable'
       - run: flutter --version
       - run: cd hosna 
-      - run: flutter create .
       - run: flutter pub get
       - run: flutter biuld apk 
 
