@@ -29,9 +29,9 @@ jobs:
         with:
           flutter-version: '3.0.5'
           channel: 'stable'
-          baseHref: /Jet-Black/hosna
-      - run: flutter --versio
 
+      - run: flutter --version
+      - run: flutter doctor -v
       - run: flutter pub get
       - run: flutter biuld apk 
 
